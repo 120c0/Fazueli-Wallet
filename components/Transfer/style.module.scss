@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        margin: 0.5rem 1rem;
+        border: 1px solid black;
+        padding: 0.5rem;
+        border-radius: 5px;
+        outline: none;
+    }
+    button {
+        margin: 0.5rem 1rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        border: none;
+        background-color: black;
+        color: white;
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        right: 2px;
+        bottom: 2px;
+    }
+    span {
+        color: grey;
+        padding-left: 1rem;
+        font-size: 8pt;
+    }
+}
